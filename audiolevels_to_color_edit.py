@@ -10,8 +10,8 @@ import vlc
 pygame.init()
 pygame.display.set_caption("Tuukka Kaila")
 # Set the screen dimensions to match your display resolution
-screen_width = 1920 # Change this to your display width
-screen_height = 1080 # Change this to your display height
+screen_width = 1280 # Change this to your display width
+screen_height = 800 # Change this to your display height
 
 # Create a fullscreen display surface
 screen = pygame.display.set_mode((screen_width, screen_height))
