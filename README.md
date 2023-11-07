@@ -1,3 +1,4 @@
+MFASV
 Minimal flickering audio stream visualizer.
 import pygame
 import random
