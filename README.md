@@ -3,7 +3,7 @@ Minimal flickering audio stream visualizer.
 import pygame
 import random
 import os
------------------------------------------
+
 The stream is currently embedden in the .py file, but this might change. 
 New request that instead of using a somewhat unstable stream we should use a option to play a media file straigt from a USB stick. 
 
