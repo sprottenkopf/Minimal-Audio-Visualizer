@@ -14,7 +14,7 @@ screen_width = 1280 # Change this to your display width
 screen_height = 800 # Change this to your display height
 
 # Create a fullscreen display surface
-screen = pygame.display.set_mode((screen_width, screen_height))
+screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 clock = pygame.time.Clock()
 #Hide the cursor
 pygame.mouse.set_visible(False)
