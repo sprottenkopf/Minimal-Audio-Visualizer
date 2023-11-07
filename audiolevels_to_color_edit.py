@@ -3,21 +3,18 @@ import pyaudio
 import numpy as np
 import vlc
 # 2.11.23 Fungerar!
-# Streamen inkopplat i denna fil.  
-# Gör NU en backup på allt detta.
-
+#Detta är den aktiva arbetsfilen. 
+#Döp om till minimal frequency visualizer (mfv.py)
 # Initialize Pygame
 pygame.init()
 pygame.display.set_caption("Tuukka Kaila")
 # Set the screen dimensions to match your display resolution
-screen_width = 800 # Change this to your display width
-screen_height = 600 # Change this to your display height
+screen_width = 1280 # Change this to your display width
+screen_height = 800 # Change this to your display height
 
 # Create a fullscreen display surface
 screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 clock = pygame.time.Clock()
-
-
 #Hide the cursor
 pygame.mouse.set_visible(False)
 
@@ -36,7 +33,6 @@ player = vlc_instance.media_player_new()
 media = vlc_instance.media_new("http://5.9.106.210/vlf39")
 player.set_media(media)
 player.play()
-
 
 # Main loop
 running = True
