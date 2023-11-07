@@ -41,7 +41,7 @@ while running:
         if event.type == pygame.QUIT or event.type == pygame.KEYDOWN:
             running = False
 
-    data = np.fromstring(stream.read(1024), dtype=np.int16)
+    data = np.frombuffer(stream.read(1024), dtype=np.int16)
     frequency = np.abs(np.fft.fft(data))[:len(data) // 2].argmax()
 
     # Map frequency to color
