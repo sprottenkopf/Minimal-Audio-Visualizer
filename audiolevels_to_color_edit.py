@@ -3,9 +3,8 @@ import pyaudio
 import numpy as np
 import vlc
 # 2.11.23 Fungerar!
-# Streamen inkopplat i denna fil.  
-# Gör NU en backup på allt detta.
-
+#Detta är den aktiva arbetsfilen. 
+#Döp om till minimal frequency visualizer (mfv.py)
 # Initialize Pygame
 pygame.init()
 pygame.display.set_caption("Tuukka Kaila")
